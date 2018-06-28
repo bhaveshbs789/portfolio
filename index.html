@@ -2,16 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<title>Bhavesh Sharma |  Portfolio</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<!--linked icon taken from a website fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
 		<header>
-			<h1>Bhavesh Sharma</h1>
+			<h1>Portfolio | Bhavesh Sharma</h1>
+			<!-- <p><sub>Google Udacity Front End Scholar</sub></p> -->
 		</header>
-
+		<!--a horizontal rule-->
+		<hr>
 			
 		<nav>
 			<ul>
@@ -20,17 +25,73 @@
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
+		<hr>
 		<main>
+			<h2>Hello Everyone ! I'm Learning Web development</h2>
 			<section id="about">
-				<h2>Section About me</h2>
+		        
+		        <!--the below div for creating two divs , one with img and another one with details-->
+				<div class="row">
+					<div class="column">
+						<div class="content">
+							<picture>
+								<img src="images/p3.jpg" alt="bear pic">
+							</picture>
+							<p>Web Development is an art which i am passionate about and try to learn. I believe learning is a continuous process and learning by doing is the best method to remember. It may not be the best looking site here but will continue to improve it. &#x26F9;</p>
+						</div>
+					</div>			
+		        
+		    	</div>
 			</section>
+			<hr>
+			<h3>My Projects</h3>
 			<section id="projects">
-				<h2>Section About Projects</h2>
+				
+		        <div class="column">
+						<div class="content">
+							<picture>
+								<img src="images/mountains.jpg" alt="mountains pic">
+							</picture>
+							<h3><a href="https://codepen.io/bhaveshbs789/pen/bLJXbO" target="_blank">Animal Trading Cards</a></h3>
+							<p>In this project i created a small card about my favorite animal and mentioned a few facts about it. Used some bootstrap for image hover effects. Hope you like it !</p>
+						</div>
+				</div>
+				<div class="column">
+						<div class="content">
+							<picture>
+								<img src="images/nature.jpg" alt="nature pic">
+							</picture>
+							<h3><a href="https://codepen.io/bhaveshbs789/pen/RyyvYd">Pixel Art Maker</a></h3>
+							<p>This project uses the jquery functions available and how to work with event handlers. The project demo allows users to select a grid , a color and then allows them to drag and cleanup the slate. Still needs lot of works. Definitely would work more on it.</p>
+						</div>
+				</div>
+				<div class="column">
+						<div class="content">
+							<picture>
+								<img src="images/lights.jpg" alt="northern lights pic">
+							</picture>
+							<h3><a href="#">Portfolio Site</a></h3>
+							<p>This project is the latest one on which i have been working on. Learning HTML5, CSS3 to create some awesome UI components. HTML5 and CSS3 are great tools to make your sites mobile ready. The site still needs lot of work and will continue to work on it.</p>
+						</div>
+				</div>
+
 			</section>
-			<section id="contact">
-				<h2>Section Contact</h2>
+			<hr>
+			<h3>Contact Me</h3>
+			<section id="contact">				
+				<a href="https://www.linkedin.com/in/bhavesh-sharma-aa631b29/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<!--The responsive image is to be updated . Course inprogress--
+					<a href="https://www.linkedin.com/in/bhavesh-sharma-aa631b29/" target="_blank"><img src="images/linkedin.png"></a>-->
+				<a href="https://www.facebook.com/bhavesh7389" target="_blank"><img src="images/facebook.png"></a>
 			</section>
 		</main>
+		<!--a horizontal rule for differentiating between various section-->
+		<hr>
+		
+		<footer>
+			<p>Developed by: Bhavesh Sharma</p>
+			<p>Reach me on email : <a href="maito:bhaveshbs789@gmail.com">bhaveshbs789@gmail.com</a></p>
+		</footer>
 	
 </body>
 </html>
